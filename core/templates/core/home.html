@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block corecss %}
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> -->
+
+<link rel="stylesheet" href = "{% static 'core/css/core.css' %}"> 
+{% endblock corecss %}
+{% block content %}
+<div class ="text-center">
+<img  class = "imgText img-thumbnail" src ="{% static 'core/images/michaelunsplash.jpg' %}" alt = "profilepic">
+</div>
+<div class ="mx-5 text-justify  ">
+    <h1 class ="g-font">Hello,</h1>
+
+<div style ="line-height:2rem;">
+<p style ="text-indent: 100px;">
+  I am <b class="text-warning gfont">Michael</b> Lorem, ipsum dolor sit amet <b class ="text-warning">consectetur adipisicing elit.</b> Vitae ad eum labore doloribus, veniam excepturi distinctio adipisci amet commodi accusamus impedit. Ut repudiandae quia, nesciunt aut quas est voluptates reiciendis.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quam debitis veniam obcaecati amet ab repellat, explicabo, nemo aut corrupti pariatur labore illo mollitia accusamus. Ipsum praesentium ex ut maxime?
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eius ullam quidem quasi numquam cum, facere deleniti repellendus amet harum minima quisquam nesciunt asperiores ex tempora ad neque libero voluptate!</p>
+<p> 
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi praesentium veritatis provident expedita soluta incidunt porro culpa eos iusto nisi velit, dolorum cum aliquid quae ipsam odit ab tempore nostrum.
+</p>
+</div>
+<div class ="text-center">
+<a href="" class="btn btn-outline-warning my-3 " style = "margin-right: 40px;">Hire me</a>
+<a href="" class="btn btn-outline-info my-3">contact</a>
+</div>
+</div>
+{% endblock content %}

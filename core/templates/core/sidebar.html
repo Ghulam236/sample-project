@@ -1,0 +1,18 @@
+{% load static %}
+<div style ="border-right: 1px solid yellowgreen; 
+
+height: 100;
+width: 100;
+padding-right: 10px;">
+    <div class ="text-centre">
+      <img class = "img-fluid rounded-circle mt-5" src ="{% static 'core/images/michaelunsplash.jpg' %}" alt ="profilepic">
+      <h1 class ="text-white g-font">Michael</h1>
+    </div>
+    <hr class = "border-warning">
+<nav class ="nav flex-column text-centre">
+<a href="/" class="nav-link">Home</a>
+<a href="{% url 'services' %}" class="nav-link">Services</a>
+<a href="{% url 'edu' %}" class="nav-link">Skills</a>
+<a href="{% url 'contact' %}" class="nav-link">Contact</a>
+</nav>
+</div>

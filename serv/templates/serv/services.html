@@ -1,0 +1,80 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block corecss %} 
+<link rel="stylesheet" href = "{% static 'core/css/core.css' %}"> 
+
+{% endblock corecss %}
+
+{% block content %}
+<div class ="container mt-5">
+ <h1 class ="text-warning mb-5 border-bottom">SERVICES</h1> 
+ <!-- first row -->
+ <div class=" row text-center text-white mb-5">
+    <div class ="col-sm-4 divcls">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fas-sharp fa-solid fa-magnifying-glass-dollar fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3 class ="i-color2">SEO</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class ="col-sm-4">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fas-sharp fa-solid fa-palette fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3>Web Design</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class ="col-sm-4">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fas-sharp fa-solid fa-code fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    
+ </div>
+
+ <!-- second row -->
+ <div class=" row text-center text-white mb-5">
+    <div class ="col-sm-4 divcls">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fas-sharp fa-mobile fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3 class ="i-color2">Android</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class ="col-sm-4">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fas-sharp fa-solid fa-apple-whole fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3>IOS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class ="col-sm-4">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fas-sharp fa-solid fa-ad fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3>Advertisement</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    
+ </div>
+
+ <!-- third row -->
+ <div class=" row text-center text-white mb-5">
+    <div class ="col-sm-4 divcls">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fa-sharp fa-pen fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3 class ="i-color2">Logo Design</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class ="col-sm-4">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fas-sharp fa-solid fa-database fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3>Hoisting</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class ="col-sm-4">
+        <!-- <i class="far-regular fa-magnifying-glass-dollar"></i> -->
+        <i class="fa-sharp fa-headset fa-2xl mb-2 i-color" style="color: chartreuse;"></i>
+        <h3>Support</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    
+ </div>
+</div>
+{% endblock content %}

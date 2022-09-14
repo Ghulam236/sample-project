@@ -1,0 +1,60 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class ="container mt-5">
+ <h1 class ="text-warning mb-5 border-bottom">Contacts</h1> 
+
+ <!-- first row -->
+  <div class=" row text-center text-white ">
+   <p>do you have any question please ask dont hesitate
+    i will surelyvb help you then contact me</p>
+   </p>
+   <div class ="col-sm-9 mb-5">
+    <form action ="">
+        <div class ="form-row">
+            <div class ="form-group col-md-6">
+                <label for ="inputName">yourname</label>
+                <input type ="text" class ="form-control"
+                id ="inputName" />
+            </div>
+            <div class ="form-group col-md-6">
+                <label for ="inputEmail">YourEmail</label>
+                <input type ="email" class ="form-control"
+                id ="inputEmail" required />
+            </div>
+        </div>
+        <div class ="form-group">
+            <label for ="inputSubject">YourSubject</label>
+                <input type ="text" class ="form-control"
+                id ="inputSubject" required />
+
+        </div>
+        <div class ="mb-3">
+            <label for ="inputTextarea">YourMessage *</label>
+                <textarea class ="form-control" 
+                id ="inputTextarea" required></textarea>
+        </div>
+        <button class ="btn btn-primary" type ="submit">Send</button>
+    </form>
+
+   </div>
+   <div class ="col-sm-3 text-center">
+    <ul class ="list-unstyled">
+        <li>
+            <i class ="fas fa-map-marker-alt fa-2x" style="color: chartreuse;"></i>
+            <p style="color: chartreuse;">Delhi,India</p>
+        </li>
+        <li>
+            <i class ="fas fa-phone-alt mt-4 fa-2x" style="color: chartreuse;"></i>
+            <p style="color: chartreuse;">+91 9000000000</p>
+        </li>
+        <li>
+            <i class ="fas fa-envelope mt-4 fa-2x" style="color: chartreuse;"></i>
+
+            <p style="color: chartreuse;">Michael007@gmail.com</p>
+        </li>
+    </ul>
+   </div>
+   </div>
+
+   </div>
+{% endblock content %}
